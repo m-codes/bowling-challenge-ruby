@@ -1,4 +1,6 @@
 require_relative 'lib/frame.rb'
+require_relative 'lib/score_board.rb'
+
 
 frame_1 = Frame.new(6,4)
 
