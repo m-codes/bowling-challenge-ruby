@@ -18,5 +18,11 @@ RSpec.describe Frame do
     end
   end
 
+  context 'when given more then 10 for any roll' do
+    it 'fails' do
+      expect{Frame.new(11,2)}.to raise_error "Invalid input"
+    end
+  end
+
 
 end
