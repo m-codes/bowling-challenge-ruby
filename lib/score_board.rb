@@ -1,3 +1,5 @@
+require 'frame'
+
 class ScoreBoard
 
   attr_accessor :frames_list
@@ -18,7 +20,7 @@ class ScoreBoard
       frame_n2 = @frame_list[frame_index + 2]
 
       if frame_index < 9
-        
+
       end
 
 
